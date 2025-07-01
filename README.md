@@ -15,6 +15,31 @@ Besides the processor, the Feather SoM contains the classic Feather features: GP
   <img src="images/Feather-RA8M1-BD.png" height="500">
 </p>
 
+## Feather Pinout
+
+The pinout for each port is as follows:
+
+
+| Pin | Function | Notes | Pin | Function | Notes |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | RESET |  |  |  |  |
+| 2 | VCC (3V3) |  |  |  |  |
+| 3 | AREF |  |  |  |  |
+| 4 | GND |  |  |  |  |
+| 5 | A0 | BSP_IO_PORT_00_PIN_14 | 17 | VBAT |  |
+| 6 | A1 | BSP_IO_PORT_00_PIN_08 | 18 | EN |  |
+| 7 | A2 | BSP_IO_PORT_00_PIN_07 | 19 | BUS |  |
+| 8 | A3 | BSP_IO_PORT_00_PIN_06 | 20 | D13 | BSP_IO_PORT_01_PIN_15 |
+| 9 | A4 | BSP_IO_PORT_00_PIN_05 | 21 | D12 | BSP_IO_PORT_01_PIN_14 |
+| 10 | A5 | BSP_IO_PORT_00_PIN_04 | 22 | D11 | BSP_IO_PORT_01_PIN_13 |
+| 11 | SCK | BSP_IO_PORT_04_PIN_12  | 23 | D10 | BSP_IO_PORT_01_PIN_12 |
+| 12 | MOSI | BSP_IO_PORT_04_PIN_11 | 24 | D9 | BSP_IO_PORT_04_PIN_15 |
+| 13 | MISO| BSP_IO_PORT_04_PIN_10 | 25 | D6 | BSP_IO_PORT_04_PIN_14 |
+| 14 | RX | BSP_IO_PORT_08_PIN_02 | 26 | D5 | BSP_IO_PORT_04_PIN_08 |
+| 15 | TX | BSP_IO_PORT_08_PIN_01 | 27 | SCL | BSP_IO_PORT_02_PIN_05 |
+| 16 | D14 | BSP_IO_PORT_00_PIN_00 | 28 | SDA | BSP_IO_PORT_02_PIN_06 |
+
+
 ## 🐣🏁 Quick Start Guide
 
 ### 🔌 Hardware Requirements
